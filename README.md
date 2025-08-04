@@ -1,4 +1,3 @@
-![App Capture](App_Capture.png)
 # Weather-Application
 Une application météo simple et élégante qui vous permet de consulter la météo actuelle de n'importe quelle ville dans le monde.  
 Construite avec **HTML**, **CSS**, **JavaScript** et intégration de l’**API OpenWeatherMap**.
