@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="Icon"  href="App_images/weather.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather_container">
+        <h1>Weather App</h1>
+        <form action="" class="weather_form">
+            <input type="text" class="search_box" placeholder="Enter city name">
+            <button type="submit" class="search_button">Get Weather</button>
+        </form>
+        <div class="first_div">
+            <img src="./App_images/search.jpg" class="img_search">
+            <h2>Search City</h2>
+            <p>Find out the weather conditions <br>of the city</p>
+        </div>
+        <div class="error">
+                <img src="./App_images/404_error.jpg" alt="" class="img_err">
+        </div>
+        <div class="weather_details" style="display: none;">
+            <div class="infos">
+                <div class="infos_details">
+                    <h2 class="city_name">London</h2>
+                    <img src="./App_images/clear-sky.png" class="weather_icon"  alt="Weather Icon">
+                </div>
+                <div class="temp_desc">
+                    <h3 class="temp">20°C</h3>
+                    <p class="description">Clear Sky</p>
+                </div>
+            </div>
+            <div class="Hu_wind">
+                <div class="data">
+                    <h3>Humidity</h3>
+                    <p class="humidity_value">60%</p>
+                </div>
+                <div class="data">
+                    <h3>Wind Speed</h3>
+                    <p class="wind_value">15 km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
